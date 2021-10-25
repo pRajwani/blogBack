@@ -8,10 +8,7 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cookie-parser": "~1.4.4",
-<<<<<<< HEAD
     "cors": "^2.8.5",
-=======
->>>>>>> 08a0ffd67eb2ff9ae53398c95fd8d96f408634ca
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "express-async-errors": "^3.1.1",
