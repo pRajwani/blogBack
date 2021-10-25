@@ -5,18 +5,28 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 require('express-async-errors');
 require('./db');
+<<<<<<< HEAD
 const cors = require('cors');
+=======
+>>>>>>> 08a0ffd67eb2ff9ae53398c95fd8d96f408634ca
 
 const errorhandler = require('./util/errorHandler');
 var blogRouter = require('./routes/blog');
 var usersRouter = require('./routes/users');
 
 var app = express();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 08a0ffd67eb2ff9ae53398c95fd8d96f408634ca
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+<<<<<<< HEAD
 app.use(cors());
+=======
+>>>>>>> 08a0ffd67eb2ff9ae53398c95fd8d96f408634ca
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
